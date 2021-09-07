@@ -1,27 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+        *
+        {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
         nav
         {
-            text-align: center;
-            background-color: #73838F;
-            padding: 5px;
+            text-align: right;
+            background-color: #000000;
+            padding: 1px;
             position: sticky;
             top: 0;
         }
-        
+
+        nav ul
+        {
+            padding-right: 40px;
+        }
+
+        nav img
+        {
+            padding-right: 800px;
+        }
+
         nav a
         {
             font-size: 18px;
-            font-weight: 400;
+            font-weight: 900;
             text-decoration: none;
-            color: white;
+            padding-right: 40px;
+            color: rgb(255, 255, 255);
         }
 
         nav a:hover
         {
-            font-weight: bold;
+            font-size: 20px;
+            font-weight: 1000;
         }
 
         nav li
@@ -30,15 +46,79 @@
             list-style-type: none;
             margin-right: 20px;
         }
+
+        .Intro
+        {
+            display: table-cell;
+            padding-left: 350px;
+            padding-top: 180px;
+            padding-bottom: 230px;
+        }
+
+        .Intro img
+        {
+            float: left;
+            padding-right: 30px;
+        }
+
+        .Intro p
+        {
+            text-align: justify;
+            margin-right: 250px;
+        }
+
+        .Education
+        {
+            padding-top: 150px;
+            padding-left: 200px;
+            padding-bottom: 200px;
+        }
+
+        .Skill
+        {
+            padding-top: 150px;
+            padding-left: 200px;
+            padding-bottom: 200px;
+        }
+
+        .Experience
+        {
+            padding-top: 150px;
+            padding-left: 200px;
+            padding-bottom: 300px;
+        }
+        
     </style>
     <head>
+        <title>About Me</title>
         <nav>
             <ul>
-                <li><a href="#">Intro</a></li>
-                <li><a href="#pendidikan">Education</a></li>
-                <li><a href="#skill">Skill</a></li>
-                <li><a href='#pengalaman'>Experience</a></li>
+                <img src="assets/dBa.png" width="50">
+                <li><a href="#In">Intro</a></li>
+                <li><a href="#Ed">Education</a></li>
+                <li><a href="#Sk">Skill</a></li>
+                <li><a href='#Ex'>Experience</a></li>
             </ul>
         </nav>
     </head>
+
+    <body>
+        <div id="In" class ="Intro">
+            <img src="assets/Nanda.png" width="250">
+            <h1>Dwinanda Bagoes Ansori</h1>
+            <p>I'm currently a student of the Department of Informatics at Sepuluh Nopember Institute of Technology (ITS), Surabaya. I'm interested in learning further about web development.</p>
+        </div>
+
+        <div id="Ed" class="Education">
+            <img src="assets/Education.png" width="300">
+        </div>
+
+        <div id="Sk" class="Skill">
+            <img src="assets/Skill.png" width="300">
+        </div>
+
+        <div id="Ex" class="Experience">
+            <img src="assets/Experience.png" width="300">
+        </div>
+    </body>
 </html>
