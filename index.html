@@ -52,7 +52,7 @@
             display: table-cell;
             padding-left: 350px;
             padding-top: 180px;
-            padding-bottom: 230px;
+            padding-bottom: 100px;
         }
 
         .Intro img
@@ -69,15 +69,31 @@
 
         .Education
         {
-            padding-top: 150px;
+            float: left;
+            padding-top: 250px;
             padding-left: 200px;
-            padding-bottom: 200px;
+        }
+
+        .sch
+        {
+            width: 480px;
+            padding-top: 290px;
+            padding-left: 70px;
+            padding-bottom: 30px;
+        }
+
+        .its
+        {
+            float: right;
+            width: 565px;
+            padding-top: 40px;
+            padding-right: 365px;
+            padding-bottom: 500px;
         }
 
         .Skill
         {
-            padding-top: 150px;
-            padding-left: 200px;
+            padding-left: 1000px;
             padding-bottom: 200px;
         }
 
@@ -88,6 +104,64 @@
             padding-bottom: 300px;
         }
         
+        .hmtc
+        {
+            float: right;
+            padding-right: 360px;
+            padding-top: 270px;
+            width: 580px;
+        }
+
+        .footer
+        {
+            background-color:black;
+            margin:0;
+            padding:40px;
+        }
+
+        .footer ul
+        {
+            position:relative;
+            top:50%;
+            left:40%;
+            margin:0;
+            padding:0;
+            display:flex;
+        }
+
+        .footer ul li
+        {
+            list-style: none;
+        }
+
+        .footer ul li a
+        {
+            position: relative;
+            width:30px;
+            height:30px;
+            display:block;
+            text-align:center;
+            margin:0 6px;
+            border-radius: 50%;
+            padding: 6px;
+            box-sizing: border-box;
+            text-decoration:none;
+            box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+            background: linear-gradient(0deg, #ddd, #fff);
+            transition: .5s;
+        }
+
+        .footer ul li a:hover
+        {
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+            text-decoration:none;
+        }
+
+        .logo
+        {
+            width: 18px;
+            height: 18px;
+        }
     </style>
     <head>
         <title>About Me</title>
@@ -109,16 +183,27 @@
             <p>I'm currently a student of the Department of Informatics at Sepuluh Nopember Institute of Technology (ITS), Surabaya. I'm interested in learning further about web development.</p>
         </div>
 
-        <div id="Ed" class="Education">
-            <img src="assets/Education.png" width="300">
+            <img src="assets/Education.png" id = "Ed" class="Education" width="300">
+            <img src="assets/SMA.png" class="sch">
+            <img src="assets/ITS.png" class="its">
         </div>
 
         <div id="Sk" class="Skill">
             <img src="assets/Skill.png" width="300">
         </div>
 
-        <div id="Ex" class="Experience">
-            <img src="assets/Experience.png" width="300">
+            <img src="assets/Experience.png" id="Ex" class="Experience" width="300">
+            <img src="assets/HMTC.png" class="hmtc">
+
+        <div class="footer">    
+            <ul>
+                <li><a href="#"><img src="assets/linkedin.png" class="logo"></i></a></li>
+                <li><a href="https://github.com/DwinandaBagoes" target="_blank"><img src="assets/github.png" class="logo"></i></a></li>
+                <li><a href="mailto:dwinandabagoes@gmail.com" target="_blank"><img src="assets/gmail.png" class="logo"></i></a></li>
+                <li><a href="http://www.instagram.com/dwinanda_ba" target="_blank"><img src="assets/ig.png" class="logo"></img></a></li>
+                <li><a href="http://www.facebook.com/dwinanda.ansori" target="_blank"><img src="assets/fb.png" class="logo"></img></i></a></li>
+                <li><a href="https://twitter.com/dwinandaansori" target="_blank"><img src="assets/twitter.png" class="logo"></a></li>
+              </ul>
         </div>
     </body>
 </html>
