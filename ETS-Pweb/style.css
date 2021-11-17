@@ -1,0 +1,18 @@
+.j-text {
+    color: darkslategrey;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+  
+  .tb-text {
+    text-align: center;
+  }
+  
+  img {
+    align-items: center;
+  }
