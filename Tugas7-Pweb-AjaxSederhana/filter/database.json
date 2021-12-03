@@ -1,0 +1,26 @@
+{
+    "Premier League": [
+      "Man. United",
+      "Man. City", 
+      "Chelsea FC",
+      "Liverpool FC"
+    ],
+    "Serie A": [
+      "Juventus", 
+      "Inter Milan", 
+      "AC Milan", 
+      "AS Roma"
+    ],
+    "Bundesliga": [
+      "Bayern Munchen", 
+      "Borussia Dortmund", 
+      "RB Leipzeig"
+    ],
+    "Liga 1": [
+      "Persija", 
+      "Persipura", 
+      "Persebaya", 
+      "Madura United",
+      "Bali United"
+    ]
+  }
